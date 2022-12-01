@@ -1,0 +1,32 @@
+.blogpost-img{
+     height: 60vh;
+     margin: 16px; 
+}
+
+.blogpost-img img{
+    width: 100vw;
+    height: 60vh;
+}
+.blog-post-content h1{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.blog-post-content p{
+    font-size: 17px;
+    font-style: var(--font1);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-article-more{
+    flex-direction: column;
+}
+.home-article-more a{
+    text-decoration: none;
+    color : black;
+
+}
+
+

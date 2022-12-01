@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  margin-top: 20px ;
+  font-family: var(--font1);
+  /* height: 12vh; */
+  /* background-color: rgb(255, 215, 140); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 120px;
+  height: 100px;
+  
+}
+.nav-left {
+  font-size: 40px;
+  display: flex;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 17px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.search-input {
+  padding: 0 5px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 13px;
+  font-family: var(--font1);
+}
+.btn {
+  padding: 0px 5px;
+  border: 2px solid rgb(241, 180, 65);
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: var(--font1);
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: var(--main-bg-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.content {
+  height: 100%vh;
+  padding: 9px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(226, 177, 84);
+  display: flex;
+  position: relative;
+}
+.left-content {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.right-content {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.right-content img {
+  border: 2px solid rgb(37, 37, 34);
+  border-radius: 50px;
+  height: 200px;
+  margin: auto;
+}
+.home-articles {
+  /* height: 350px; */
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(233, 200, 140); 
+  position: relative;
+}
+.year-box{
+  position: absolute;
+  right: 300px;
+  top: 80px;
+  /* background-color: red; */
+}
+.year-box div{
+  margin-top: 5px;
+}
+.home-article {
+  display: flex;
+  padding: 4px;
+}
+.home-article a{
+  text-decoration: none;
+  color: black;
+}
+.home-articles img{
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+.home-article-content{
+  align-self: center;
+  padding: 18px;
+}
+
+.footer {
+  height: 10vh;
+  margin-top: 20px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(253, 246, 253);
+  font-weight: bold;
+}

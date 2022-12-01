@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px) {
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-left ul li{
+      margin-bottom: 5px;
+  }
+  .right-content {
+    display: none;
+  }
+  .home-article {
+    flex-direction: column;
+  }
+  .home-article-img {
+    text-align: center;
+  }
+  .year-box {
+    display: none;
+  }
+  .row{
+   flex-direction: column;
+  }
+}
